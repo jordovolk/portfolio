@@ -1,10 +1,11 @@
-body { padding-top: 50px;
-      position: relative; 
+body { background-color: white;
+       padding-top: 50px;
+       position: relative; 
   }
-#personalinfo {padding-top:0px;height:750px;color: #fff; background-color: #1E88E5;}
-#IT {padding-top:0px;height:500px;color: #fff; background-color: #673ab7;}
-#project {padding-top:0px;height:500px;color: #fff; background-color: #ff9800;}
-#education {padding-top:0px;height:500px;color: #fff; background-color: #00bcd4;}
+#personalinfo {padding-top:25px;height:700px;color: #fff; background-color: #FF0000;}
+#IT {padding-top:25px;height:500px;color: #fff; background-color: #A80000;}
+#project {padding-top:25px;height:1000px;color: #fff; background-color: #FF0000;}
+#education {padding-top:25px; height:625px;color: #fff; background-color: #A80000;}
 
 .jumbotron { background-image:url(images/skydiving1.jpg);
              background-repeat: no-repeat;
@@ -13,8 +14,16 @@ body { padding-top: 50px;
              margin-top: 15px;
 	         padding-bottom: 25px;
              background-position:center;
+             background-color: 1E88E5; 
              
 }
 .jumbotron h1 { color: white; }
+ 
+}
 
+.navbar-inverse  { background-color: #380000;
+                  border-color: #380000;}
+.navbar-inverse .navbar-brand { color: white; }
 
+.navbar-inverse .btn { color: #FF0000;
+                       background-color: #A80000; }
