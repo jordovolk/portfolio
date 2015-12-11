@@ -1,11 +1,11 @@
-body { background-color: white;
+body { background-color: #A80000;
        padding-top: 50px;
        position: relative; 
   }
-#personalinfo {padding-top:25px;height:700px;color: #fff; background-color: #FF0000;}
-#IT {padding-top:25px;height:500px;color: #fff; background-color: #A80000;}
-#project {padding-top:25px;height:1000px;color: #fff; background-color: #FF0000;}
-#education {padding-top:25px; height:625px;color: #fff; background-color: #A80000;}
+#personalinfo {padding-top:25px;color:#fff; background-color: #FF0000;}
+#IT {padding-top:25px; color:#fff; background-color: #FF0000;}
+#project {padding-top:25px; color:#fff; background-color: #FF0000;}
+#education {padding-top:25px;color:#fff; background-color: #FF0000;}
 
 .jumbotron { background-image:url(images/skydiving1.jpg);
              background-repeat: no-repeat;
@@ -14,16 +14,25 @@ body { background-color: white;
              margin-top: 15px;
 	         padding-bottom: 25px;
              background-position:center;
-             background-color: 1E88E5; 
+             background-color: #1E88E5; 
              
 }
-.jumbotron h1 { color: white; }
+.jumbotron h1 { color: gold; }
  
-}
+
 
 .navbar-inverse  { background-color: #380000;
-                  border-color: #380000;}
-.navbar-inverse .navbar-brand { color: white; }
+                  border-color: #FF0000;}
+.navbar-inverse .navbar-brand { color: gold; }
 
-.navbar-inverse .btn { color: #FF0000;
+.navbar-inverse .btn { color:gold;
                        background-color: #A80000; }
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover { color: gold; }
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a { color: gold; }
+
+h1,
+h2,
+h3 { color: gold;
+    font-family: Georgia, Times, "Times New Roman", serif }
+li, p { font-family: Georgia, Times, "Times New Roman", serif; }
+ 
