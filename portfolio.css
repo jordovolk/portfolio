@@ -35,4 +35,4 @@ h2,
 h3 { color: gold;
     font-family: Georgia, Times, "Times New Roman", serif }
 li, p { font-family: Georgia, Times, "Times New Roman", serif; }
- 
+.mobile { display: block; }
